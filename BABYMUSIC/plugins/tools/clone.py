@@ -171,7 +171,7 @@ async def restart_bots():
             # Set bot's about text
             def set_bot_about():
                 url = f"https://api.telegram.org/bot{bot_token}/setMyAbout"
-                params = {"about": "Part Of - @ProBotts"}
+                params = {"about": "Part Of - @untold_coder4"}
                 response = requests.post(url, data=params)
                 print(response.json())
 

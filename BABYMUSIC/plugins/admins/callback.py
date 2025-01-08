@@ -1,5 +1,5 @@
 import asyncio
-from telegram import CallbackQuery
+from pyrogram import CallbackQuery
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 

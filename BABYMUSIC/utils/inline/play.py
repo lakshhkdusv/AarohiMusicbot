@@ -256,7 +256,7 @@ def stream_markup_timer2(_, chat_id, played, dur):
     duration_sec = time_to_seconds(dur)
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
-    if 0 < umm <= 40:
+    if 0 < umm <= 10:
         bar = "◉——————————"
     elif 10 < umm < 20:
         bar = "—◉—————————"
@@ -451,7 +451,7 @@ def panel_markup_4(_, vidid, chat_id, played, dur):
     duration_sec = time_to_seconds(dur)
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
-    if 0 < umm <= 40:
+    if 0 < umm <= 10:
         bar = "◉——————————"
     elif 10 < umm < 20:
         bar = "—◉—————————"

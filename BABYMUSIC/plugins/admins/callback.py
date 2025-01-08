@@ -709,7 +709,6 @@ async def markup_timer():
 
 
 asyncio.create_task(markup_timer())
-nue
 
 
 asyncio.create_task(markup_timer())

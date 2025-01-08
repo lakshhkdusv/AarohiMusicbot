@@ -5,28 +5,6 @@ import config
 from BABYMUSIC.utils.formatters import time_to_seconds
 from BABYMUSIC import app 
 
-def track_markup(_, videoid, user_id, channel, fplay):
-    buttons = [
-        [
-            InlineKeyboardButton(
-                text=_["P_B_1"],
-                callback_data=f"MusicStream {videoid}|{user_id}|a|{channel}|{fplay}",
-            ),
-            InlineKeyboardButton(
-                text=_["P_B_2"],
-                callback_data=f"MusicStream {videoid}|{user_id}|v|{channel}|{fplay}",
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text=_["CLOSE_BUTTON"],
-                callback_data=f"forceclose {videoid}|{user_id}",
-            )
-        ],
-    ]
-    return buttons
-
-
 def stream_markup_timer(_, vidid, chat_id, played, dur):
     played_sec = time_to_seconds(played)
     duration_sec = time_to_seconds(dur)

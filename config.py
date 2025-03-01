@@ -14,13 +14,13 @@ API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","untold_coder")
+OWNER_USERNAME = getenv("OWNER_USERNAME","vishnusoni14")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "leharmusic_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "pihu_music_rebot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "lehar")
+BOT_NAME = getenv("BOT_NAME" , "Pihu Music")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "lehar")
+ASSUSERNAME = getenv("ASSUSERNAME" , "Pihu Assistant")
 # ---------------------------------------------------------
 
 
@@ -36,10 +36,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1001550054357))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002420612426))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 6391774843))
+OWNER_ID = int(getenv("OWNER_ID", 5923034665))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 # config.py
@@ -54,7 +54,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/MY-MOONREPO/clone",
+    "https://github.com/lakshhkdusv/AarohiMusicbot",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -68,10 +68,10 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/untold_coder")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/world_friend_chatting_zone")
-SOURCE = getenv("SOURCE", "https://t.me/Moon_Music_Updates")
-CHAT = getenv("CHAT", "https://t.me/world_friend_chatting_zone")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/NAINCY_UPDATES")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/RADHA_MUSIC_support")
+SOURCE = getenv("SOURCE", "https://t.me/VISHNUSONI_14")
+CHAT = getenv("CHAT", "https://t.me/Radha_music_support")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -139,10 +139,10 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://i.ibb.co/h9XdzGp/IMG-20250103-174105-243.jpg"
+    "START_IMG_URL", "https://envs.sh/ioK.mp4"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://i.ibb.co/h9XdzGp/IMG-20250103-174105-243.jpg"
+    "PING_IMG_URL", "https://envs.sh/io3.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/08db892ae10fcd27fc420.jpg"
 STATS_IMG_URL = "https://i.ibb.co/h9XdzGp/IMG-20250103-174105-243.jpg"

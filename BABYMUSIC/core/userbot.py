@@ -23,8 +23,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("world_friend_chatting_zone")
-                await self.one.join_chat("world_friend_chatting_zone")
+                await self.one.join_chat("GOOGLE_MUSIC_UPDATE")
+                await self.one.join_chat("Naincy_updates")
             except:
                 pass
             assistants.append(1)

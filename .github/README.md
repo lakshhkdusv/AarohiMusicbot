@@ -2,12 +2,11 @@
 
 
 ## 🚀 Deploy on Heroku 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/MY-MOONREPO/clone)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/lakshhkdusv/AarohiMusicbot)
 
 ---
 
-### 🔧 Quick Setup
-
+### 🔧 Quick Set
 1. **Upgrade & Update:**
    ```bash
    sudo apt-get update && sudo apt-get upgrade -y
@@ -27,7 +26,7 @@
    ```
 5. **Clone the Repository**
    ```bash
-   git clone https://github.com/BABY-MUSIC/SPOTIFY_MUSIC && cd SPOTIFY_MUSIC
+   git clone https://github.com/lakshhkdusv/AarohiMusicbot && cd AarohiMusicbot
    ```
 6. **Install Requirements**
    ```bash
